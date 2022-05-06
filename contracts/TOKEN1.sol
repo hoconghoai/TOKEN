@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 contract TOKEN1{
-    uint public totalSupply = 1000000000;
+    uint public totalSupply = 1000000000 * 10**18;
     string public name = "TOKEN DEMO";
     string public symbol = "TOKEN1";
     uint public decimals = 18;
